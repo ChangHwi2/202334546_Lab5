@@ -6,7 +6,7 @@
 
 ls -lh > 저장하고자 하는 파일이름  
 =화면에 있는 파일들을 txt로 저장  
----
+
 cat 파일.txt  
 =txt 파일 여는 코드  
 
@@ -22,7 +22,7 @@ sort < ~~.txt > sorted_words.txt
 = sort하고 이름을 sorted_words로 바꿈
 
 cat sorted_words.txt
----
+__________________________________________________
 | : pipeline 
 = 앞서했던 커맨드의 출력을 다음 커맨드의 입력으로 가져간다.
 
