@@ -66,12 +66,12 @@ chmod 640 some_file
 4 = 100 = r-- for group
 0 = 000 = --- for others
 
-*\*모든 유저 허용 
-=777 = rwxrwxrwx
-=755 = rwxr-xr-x
-=700 = rwx------
-=666 = rw-rw-rw-
-=644 = rw-r--r--
+*\*모든 유저 허용   
+=777 = rwxrwxrwx   
+=755 = rwxr-xr-x   
+=700 = rwx------   
+=666 = rw-rw-rw-   
+=644 = rw-r--r--   
 =600 = rw-------*
 
 sudo some_command 
