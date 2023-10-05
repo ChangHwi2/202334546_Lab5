@@ -46,7 +46,7 @@ echo print out text = echo ~~ 프린트
 
 **\*\*\*권한 : Permissions**
 
-***-Linux is a multi-user system.
+***-Linux is a multi-user system.   
 -Files and directories have a permission assigned 
  differentle to owner / group / others***
 
