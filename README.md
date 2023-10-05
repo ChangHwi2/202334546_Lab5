@@ -85,92 +85,47 @@ sudo some_command
 history = 과거의 내가 명령을 입력했던 리스트를 알려줌
 
 $ cat history_comm.txt
-
-    1  pwd
-    
-    2  ls
-    
-    3   cd OSS
-    
-    4  pwd
-    
-    5  ls
-    
-    6  cd 1학기
-    
-    7  cd 1학기
-    
-    8  cd Oss
-    
-    9  pwd
-    
-   10  ls
-   
-   11  ls |wc-l
-   
-   12  ls | wc -l
-   
-   13  echo *
-   
-   14  echo ~
-   
-   15  echo print
-   
-   16  q
-   
-   17  ls -l
-   
-   18  ls -l--reverse --human-readable
-   
-   19  ls -l--reverse--human-readable
-   
-   20  ls -l --reverse --human-readable
-   
-   21  ls -l /bin/bash
-   
-   22  chmod 600
-   
-   23  chmod 600 AppData
-   
-   24  chmod 600 AppData
-   
-   25  ls
-   
-   26  ls -l words.txt
-   
-   27  ls -l 옾솟SW
-   
-   28  pwd
-   
-   29  ls -l /Desktop/오픈소스SW/words.txt
-   
-   30  ls - l /Desktop
-   
-   31  ls -l /Desktop
-   
-   32  ls Desktop
-   
-   33  ls '오픈소스SW'
-   
-   34  ls 오픈소스SW
-   
-   35  ls 오픈소스SW/
-   
-   36  nano
-   
-   37  nano myscript.sh
-   
-   38  sh myscript.sh
-   
-   39  ;s
-   
-   40  ls
-   
-   41  sh myscript
-   
-   42  sh myscript.sh
-   
-   43  history
-   
-   44  history > history_comm.txt
-
+    1  pwd  
+    2  ls  
+    3   cd OSS   
+    4  pwd   
+    5  ls   
+    6  cd 1학기     
+    7  cd 1학기               
+    8  cd Oss             
+    9  pwd            
+   10  ls          
+   11  ls |wc-l                   
+   12  ls | wc -l                            
+   13  echo *               
+   14  echo ~          
+   15  echo print           
+   16  q           
+   17  ls -l             
+   18  ls -l--reverse --human-readable                   
+   19  ls -l--reverse--human-readable                        
+   20  ls -l --reverse --human-readable              
+   21  ls -l /bin/bash           
+   22  chmod 600                  
+   23  chmod 600 AppData           
+   24  chmod 600 AppData            
+   25  ls             
+   26  ls -l words.txt            
+   27  ls -l 옾솟SW             
+   28  pwd              
+   29  ls -l /Desktop/오픈소스SW/words.txt            
+   30  ls - l /Desktop            
+   31  ls -l /Desktop            
+   32  ls Desktop             
+   33  ls '오픈소스SW'              
+   34  ls 오픈소스SW               
+   35  ls 오픈소스SW/            
+   36  nano                       
+   37  nano myscript.sh            
+   38  sh myscript.sh               
+   39  ;s               
+   40  ls            
+   41  sh myscript            
+   42  sh myscript.sh           
+   43  history          
+   44  history > history_comm.txt           
