@@ -14,7 +14,9 @@ cat 파일.txt
 ls -lh >> 저장한 파일 이름  
 =기존에 파일을 덮어쓰지 않고 그 뒤에 새로운 내용 추가  
 
-**Standard Input **"<"**  
+---
+
+## **Standard Input **"<"**  
 
 -can mix **"<"**, **">"** together in a single line.
 
@@ -32,17 +34,21 @@ cat sorted_words.txt
 command1 | command2 | command3
 = command1의 아웃풋이 command2의 인풋으로
 
+---
+
 ls | wc -l = 파일의 갯수
 echo * = ls랑 비슷 
 echo print out text = echo ~~ 프린트
 
 -- : 약식을 쓰지 않는
 
-**권한 : Permissions
+---
 
--Linux is a multi-user system.
+**\*\*\*권한 : Permissions**
+
+***-Linux is a multi-user system.
 -Files and directories have a permission assigned 
- differentle to owner / group / others
+ differentle to owner / group / others***
 
 -rwx/rwx/rwx
 =owner/group/others
@@ -60,20 +66,22 @@ chmod 640 some_file
 4 = 100 = r-- for group
 0 = 000 = --- for others
 
-*모든 유저 허용 
+*\*모든 유저 허용 
 =777 = rwxrwxrwx
 =755 = rwxr-xr-x
 =700 = rwx------
 =666 = rw-rw-rw-
 =644 = rw-r--r--
-=600 = rw-------
+=600 = rw-------*
 
 sudo some_command 
 = Superuser 가 됌
 *권장하진 않는다
 
 "exit" = get out of Superuser
+
 ---
+
 history = 과거의 내가 명령을 입력했던 리스트를 알려줌
 
 $ cat history_comm.txt
