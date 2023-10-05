@@ -73,11 +73,17 @@ history = 과거의 내가 명령을 입력했던 리스트를 알려줌
 
 $ cat history_comm.txt
     1  pwd
+    
     2  ls
+    
     3   cd OSS
+    
     4  pwd
+    
     5  ls
+    
     6  cd 1학기
+    
     7  cd 1학기
     8  cd Oss
     9  pwd
